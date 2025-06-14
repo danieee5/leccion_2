@@ -1,0 +1,23 @@
+.receta-card {
+  border-radius: 12px;
+  background-color: #FFFAF0; /* tono crema */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-title {
+  color: #4E3D72;
+}
+
+.accordion-button {
+  background-color: #E0D4F7;
+  color: #2B2B52;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #A294F9;
+  color: white;
+}
+
+.accordion-body {
+  background-color: #F4F0FB;
+}

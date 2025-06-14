@@ -1,0 +1,57 @@
+:host {
+  display: block;
+  background-color: #A3D9B1; /* fondo verde menta */
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 2rem;
+}
+
+/* Carrusel */
+.carousel-inner {
+  border: 5px solid #CDE19C;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Botón YouTube */
+.btn-primary {
+  background-color: #EAB76F;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #d19d5e;
+}
+
+/* Acordeón */
+.accordion {
+  max-width: 800px;
+  margin: 3rem auto;
+  background-color: #F7F4C1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+  background-color: #CDE19C;
+  border: none;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  background-color: #A3D9B1;
+  font-weight: 600;
+}
+
+.accordion-body {
+  background-color: #F7F4C1;
+}
