@@ -2,7 +2,10 @@
   <div *ngFor="let receta of recetas; let i = index">
 
     <div class="card receta-card mb-4 shadow-sm">
-  <img src="{{ receta.imagen }}" class="card-img-top" alt="Imagen de {{ receta.nombre }}">
+ <img src="{{ receta.imagen }}"
+     class="img-fluid rounded"
+     alt="Imagen de {{ receta.nombre }}"
+     style="max-height: 250px; object-fit: cover;">
 
   <div class="card-body">
     <h5 class="card-title">{{ receta.nombre }}</h5>
